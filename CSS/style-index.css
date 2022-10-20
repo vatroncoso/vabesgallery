@@ -1,6 +1,14 @@
+/*id*/
+#footer{
+    text-align: center;
+    padding: 4% 13%;
+    background: #f7f7f7;
+}
+
+
 .main{
     padding-left: 150px;
-	padding-top: 100px;
+	padding-top: 125px;
 }
 
 
@@ -54,7 +62,8 @@
 }
  #highlight {
 	 color: #ea8478;
-	 font-size: 1.25rem;
+	 font-size: 1.5rem;
+	 font-family: 'Poppins', sans-serif;
 }
 
  .img-container {
@@ -107,11 +116,7 @@
  .social li {
 	 display: inline-block;
 }
- footer {
-	 padding: 1rem 0;
-	 background: #f7f7f7;
-	 text-align: center;
-}
+
  @supports (display: grid) {
 	 .gallery .grid {
 		 grid-gap: 1rem;
@@ -138,3 +143,35 @@
 	}
 }
  
+/*Footer*/
+.social{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #e67d72;
+    
+}
+
+.brands{
+    padding: 40px;
+}
+
+.foot-brand{
+    text-align:center;
+}
+
+.fa-brands{
+    font-size: 50px;
+    color: #ea8478;
+    padding: 0 10px 0 10px;
+    transform: scale(0.8);
+    transition: transform 0.2s linear;
+}
+
+.fa-brands:hover{
+    transition-duration: 0.2s;
+    transform: rotate(25deg);   
+    cursor: pointer;
+    
+}
